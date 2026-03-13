@@ -1,6 +1,19 @@
 # repo-colaborativo
 
 def registrar_habitos():
+"""
+    Permite registrar habitos o actividadesingresadas por el usuario y guardarlas en una lista hasta que el usuario decida finalizar.
+    
+    Parametros
+    ------------
+No recibe Parametros
+
+    Returns
+    -------
+    habitos= lista
+    Lista de los habitos ingresados.
+
+    """
     habitos = []
     while True:
         actividad = input("Ingrese un hábito (o escriba 'fin' para terminar): ")
