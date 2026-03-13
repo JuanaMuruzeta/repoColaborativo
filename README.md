@@ -50,3 +50,11 @@ def analizar_habitos(lista):
 
     return resultado
          
+         
+import funciones_habitos 
+
+lista = registrar_habitos() 
+resultado = analizar_habitos(lista) 
+
+print("Resumen de actividades:") 
+print(resultado)
