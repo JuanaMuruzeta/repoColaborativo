@@ -11,5 +11,15 @@ def registrar_habitos():
             
     return(habitos)
   
-  
+def analizar_habitos(lista):
+
+    resultado = {}
+
+    for actividad in lista:
+        if actividad in resultado:
+            resultado[actividad] = resultado[actividad] + 1
+        else:
+            resultado[actividad] = 1
+
+    return resultado
          
