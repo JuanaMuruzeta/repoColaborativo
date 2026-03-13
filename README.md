@@ -6,7 +6,7 @@ def registrar_habitos():
     
     Parametros
     ------------
-No recibe Parametros
+    No recibe Parametros
 
     Returns
     -------
@@ -25,6 +25,20 @@ No recibe Parametros
     return(habitos)
   
 def analizar_habitos(lista):
+"""
+    Cuenta cuantas veces aparece cada actividad en la lista.
+    
+    Parametros
+    ------------
+    Lista = lista
+    
+    Returns
+    -------
+    resultado = diccionario
+    Diccionario con cada actividad y la cantidad de veces que aparece.
+
+    """
+
 
     resultado = {}
 
