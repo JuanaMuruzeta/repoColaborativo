@@ -6,7 +6,8 @@ Created on Fri Mar 13 17:47:01 2026
 """
 
 def registrar_habitos():
-"""
+
+    """
     Permite registrar habitos o actividadesingresadas por el usuario y guardarlas en una lista hasta que el usuario decida finalizar.
     
     Parametros
@@ -30,7 +31,8 @@ def registrar_habitos():
     return(habitos)
   
 def analizar_habitos(lista):
-"""
+
+    """
     Cuenta cuantas veces aparece cada actividad en la lista.
     
     Parametros
@@ -56,10 +58,4 @@ def analizar_habitos(lista):
     return resultado
          
          
-import funciones_habitos 
 
-lista = registrar_habitos() 
-resultado = analizar_habitos(lista) 
-
-print("Resumen de actividades:") 
-print(resultado)
